@@ -18,8 +18,6 @@ public class SchoolManagementSystem {
         }
 
 
-
-
         public void addStudent(String name, int age, String studentId) {
             if (!students.containsKey(studentId)) {
                 Student student = new Student(name, age, studentId);
