@@ -77,7 +77,6 @@ public class SchoolManagementSystemTest {
         system.addCourse("Math 101", "C001");
         system.assignTeacherToCourse("T001", "C001");
         assertTrue(outputContains("Jane Smith assigned to Math 101"));
-
         // Try to assign non-existent teacher
         system.assignTeacherToCourse("T999", "C001");
         assertTrue(outputContains("Teacher or Course not found"));
@@ -256,4 +255,6 @@ public class SchoolManagementSystemTest {
         system.addSemester("Fall 2024");
     }
 }
+
+
 
