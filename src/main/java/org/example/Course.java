@@ -9,6 +9,7 @@ public class Course {
     private String courseName;
     private String courseCode;
     private Teacher teacher;
+
     private Map<String, List<Student>> enrolledStudentsPerSemester;
     private Map<String, Double> courseGrades;
 
